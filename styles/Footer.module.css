@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.logo {
+    font-size: 3rem;
+
+}
+
+.desc {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.socialContainer {
+    display: flex;
+}
+
+.socialIcon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    color: rgb(146, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.iconFont {
+    font-size: 3rem;
+}
+
+.center {
+    flex: 1;
+    padding: 2rem;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listItem {
+    width: 50%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.right {
+    flex: 1;
+    padding: 2rem;
+}
+
+.contactItem {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.payment {
+    width: 50%;
+}
